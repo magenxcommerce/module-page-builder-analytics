@@ -1,0 +1,27 @@
+{
+    "name": "magenxcommerce/module-page-builder-analytics",
+    "description": "Page Builder Analytics module",
+    "require": {
+        "magenxcommerce/module-analytics": "~100.4.3",
+        "magenxcommerce/module-page-builder": "2.2.*",
+        "magenxcommerce/framework": "~103.0.3",
+        "php": "~7.3.0||~7.4.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\PageBuilderAnalytics\\": ""
+        }
+    },
+    "version": "1.6.1",
+    "replace": {
+        "magento/module-page-builder-analytics": "*"
+    },
+    "suggest": {}
+}
